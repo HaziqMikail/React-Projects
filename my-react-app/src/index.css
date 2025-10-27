@@ -1,0 +1,91 @@
+.card {
+  padding: 2rem;
+  border-radius: 6px;
+  background: var(--card-bg);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card-img{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-family: Arial, Times, serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-description {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: rgb(88, 69, 69);
+}
+
+.student{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid crimson;
+}
+
+.student p{
+  margin: 0;
+}
+
+.list-category{
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  background-color: lightblue;
+  text-align: center;
+} 
+
+.list-items li{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  color: rgb(0, 0, 0);  
+  list-style-type: square;
+  text-align: left;
+  padding-left: 40px;
+  text-align: center;
+  list-style: none;
+}
+
+.list-items li:hover{
+  color: rgb(88, 69, 69);
+  cursor: pointer;
+}
+
+.counter-container{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid green;
+}
+
+.count-display{
+  font-size: 1.5em;
+  text-align: center;
+  margin: 10px;
+}
+
+.counter-button{
+  font-size: 1em;
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: lightgreen;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.counter-button:hover{
+  background-color: green;
+  color: white;
+}
